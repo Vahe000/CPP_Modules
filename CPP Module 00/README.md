@@ -1,4 +1,4 @@
-# CPP-Module-00 | 42 Madrid
+# CPP-Module-00
 
 *shhhhh... I think the students are asleep 📣*
 
