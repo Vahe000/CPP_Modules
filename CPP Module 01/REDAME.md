@@ -36,12 +36,6 @@ The next two exercises expand on the idea of refernces a bit further. We create 
 
 This last exercise is an extension of the previous one. However this time we receive the message type from the user and output that type's message and all the message types above it (order is **DEBUG** < **INFO** < **WARNING** < **ERROR**). We must coordinate the responses using switches for this exercise.
 
-### Example
-
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/40824677/189337035-d77110f1-0bc6-4071-bb6c-249054d99982.png">
-</div>
-
 Note how the **DEBUG** message is not shown because it is below **INFO**.
 
 ## Summary
