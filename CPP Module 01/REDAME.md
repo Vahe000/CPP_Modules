@@ -28,11 +28,11 @@ This exercise aims to replicate the basic performance of the **sed** command (**
 
 Note: the example above shows how the replace operation is reversible (unsurprisingly).
 
-## ex05. Karen 2.0
+## ex05. Harl 2.0
 
 The next two exercises expand on the idea of refernces a bit further. We create a **Karen** class that can give various messages of types **DEBUG**, **INFO**, **WARNING** and **ERROR**. We are asked to create that outputs the proper message depending message type.
 
-## ex06. Karen-filter
+## ex06. Harl-filter
 
 This last exercise is an extension of the previous one. However this time we receive the message type from the user and output that type's message and all the message types above it (order is **DEBUG** < **INFO** < **WARNING** < **ERROR**). We must coordinate the responses using switches for this exercise.
 
