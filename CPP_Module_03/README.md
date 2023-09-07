@@ -40,3 +40,15 @@ Aaaaand... OPEN!
 > An example of multiple inheritance
 
 [![multiple_inheirtance](https://i.stack.imgur.com/nVxgj.png)](https://github.com/achrafelkhnissi/CPP-Modules/wiki/Module03)
+
+```C++
+class CerealPack : public Carton, public Contents
+{
+	// details of the class...
+};
+```
+
+- The CerealPack class will **inherit all the members of both base classes**, so this will include the members of the indirect base, Box. The constructors of inherited classes are called in the same order in which they are inherited. In this case, ```Carton```'s constructor will be called before ```Contents```' constructor
+
+- The access level of each inherited member is determined by two factors: ```the access specifier of the member in the base class``` and ```the base class access specifier```.
+
